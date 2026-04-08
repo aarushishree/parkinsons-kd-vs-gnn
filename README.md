@@ -19,17 +19,25 @@ This reflects real-world scenarios, where collecting synchronized multimodal dat
 🚀 Key Contributions
 
 ✅ Proposed a Knowledge Distillation (MADTKD) framework for unaligned multimodal learning
+
 ✅ Developed a Graph Neural Network (MHGNet) with inter-modal edge construction
+
 ✅ Designed soft-label based cross-modal connections for unaligned data
+
 ✅ Performed extensive ablation studies
+
 ✅ Demonstrated that KD outperforms GNN in unaligned settings
+
 ✅ Provided comprehensive experimental evaluation with visual evidence
 
 📊 Results Summary
 
 Method	Accuracy	AUC	F1 Score
+
 KD (MADTKD)	84.62%	0.9517	0.8504
+
 GNN (MHGNet)	71.79%	0.8552	0.7352
+
 
 🔍 Key Insight
 
@@ -70,6 +78,7 @@ Datasets are not included in this repository due to licensing restrictions.
 📂 Repository Structure
 
 parkinsons-kd-vs-gnn/
+
 ├── main_notebook.ipynb     # Complete pipeline (EDA → KD → GNN → Comparison)
 
 ├── figures/                # All experimental figures used in paper
