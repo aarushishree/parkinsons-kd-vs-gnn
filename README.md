@@ -5,8 +5,11 @@
 This project presents a comparative study between Knowledge Distillation (KD) and Graph Neural Networks (GNN) for early detection of Parkinson’s disease using unaligned multimodal data:
 
 🧠 Brain MRI
+
 ✍️ Handwriting (spiral & wave patterns)
+
 🎙️ Voice (biomedical speech features)
+
 ⚠️ Unaligned Multimodal Setting
 
 Unlike traditional multimodal learning, the datasets used in this study are unaligned, meaning:
